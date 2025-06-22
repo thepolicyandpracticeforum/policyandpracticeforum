@@ -1,0 +1,16 @@
+/* Logo before all headings */
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  content: "";
+  display: inline-block;
+  background: url('logo.png') no-repeat center center;
+  background-size: contain;
+  width: 40px;       /* Adjust size as needed */
+  height: 40px;
+  margin-right: 10px; /* Space between logo and heading text */
+  vertical-align: middle;
+}
